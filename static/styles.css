@@ -9,11 +9,16 @@ body{
 	height: 100%;
 	margin: 0;
 	background-color: #ffffff;
+	background-image: url("ipl.jpg"); 
+ 	height: 500px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; 
 }
 
 /* Website Title */
 .container{
-	color: #000000;
+	color: #0000CD;
     padding: 20px;
 	display: block;
 	text-align: center;
