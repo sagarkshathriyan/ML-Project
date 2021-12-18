@@ -40,8 +40,7 @@ body{
     font-style: italic;
     font-family: "Sofia", sans-serif;
     font-size: 12px;
-    border: 1px solid red;
-    outline: 2px dashed blue;
+   
 	font-weight: 100;
     margin: 0;
 }
@@ -62,7 +61,7 @@ body{
 	width: 284px;
 	height: 429px;
 	border-radius: 15px;
-	border: 1px solid green
+	outline: 2px solid green
 	-webkit-box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
 	-moz-box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
 	box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
@@ -83,7 +82,7 @@ body{
 	right: 40px;
 	top: -5px;
 	border-radius: 15px;
-	border: 1px solid green
+	outline: 2px solid green
 	-webkit-box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
 	-moz-box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
 	box-shadow: 7px 6px 18px -2px rgba(94,94,94,0.61);
@@ -220,7 +219,7 @@ body{
 }
 
 .contact-icon{
-	color: #000000;
+	color: #0066ff;
 	padding: 7px;
 }
 
@@ -241,7 +240,7 @@ body{
   width: auto;
   font-family: "Trirong", serif;
   height: 429px;
-  font-style: bold;
+  font-style: oblique;
   line-height: 400px;
   text-align: center;
 }
