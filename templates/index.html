@@ -13,7 +13,7 @@
 
     <body>
 
-        <!-- Website Title -->
+       
     	<div class="container">
             <h2 class='container-heading'><span class='heading_first'>Score Predictor for </span><span class="heading_second">Indian Premier League (IPL)</span></h2>
             <div class='description'>
@@ -21,44 +21,44 @@
     		</div>
     	</div>
 
-        <!-- Prediction Area -->
+        
         <div class="prediction-area">
 
-            <!-- IPL Banner - 1 -->
+            
             <div class='ipl-banner-left'>
 
                 <div class="slider-frame">
                     <div class="slide-images-up">
 
-                        <!-- Image-1 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='mi.jpg') }}" alt="Mumbai Indians">
                         </div>
-                        <!-- Image-2 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='srh.jpg') }}" alt="Sunrisers Hyderabad">
                         </div>
-                        <!-- Image-3 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='rcb.jpg') }}" alt="Royal Challengers Bangalore">
                         </div>
-                        <!-- Image-4 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='dd.jpg') }}" alt="Delhi Capitals">
                         </div>
-                        <!-- Image-5 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
                         </div>
-                        <!-- Image-6 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='kkr.jpg') }}" alt="Kolkata Knight Riders">
                         </div>
-                        <!-- Image-7 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='kxip.jpg') }}" alt="Kings XI Punjab">
                         </div>
-                        <!-- Image-8 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='csk.jpg') }}" alt="Chennai Super Kings">
                         </div>
@@ -68,10 +68,10 @@
 
             </div>
 
-            <!-- Prediction Form -->
+          
             <div class='div2'>
                 <form action="{{ url_for('predict') }}" method="POST">
-                    <!-- Batting Team Dropdown -->
+                   
                     <select class="form-input align-center" name="batting-team">
                         <option value="none">--- Select a Batting team ---</option>
                         <option value="Mumbai Indians">Mumbai Indians</option>
@@ -83,7 +83,7 @@
                         <option value="Delhi Daredevils">Delhi Capitals</option>
                         <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
                     </select><br>
-                    <!-- Bowling Team Dropdown -->
+                   
                     <select class="form-input align-center" name="bowling-team">
                         <option value="none">--- Select a Bowling team ---</option>
                         <option value="Mumbai Indians">Mumbai Indians</option>
@@ -105,41 +105,41 @@
         	</form>
             </div>
 
-            <!-- IPL Banner - 2 -->
+           
             <div class='ipl-banner-right'>
 
                 <div class="slider-frame">
                     <div class="slide-images-down">
 
-                        <!-- Image-1 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='mi.jpg') }}" alt="Mumbai Indians">
                         </div>
-                        <!-- Image-2 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='srh.jpg') }}" alt="Sunrisers Hyderabad">
                         </div>
-                        <!-- Image-3 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='rcb.jpg') }}" alt="Royal Challengers Bangalore">
                         </div>
-                        <!-- Image-4 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='dd.jpg') }}" alt="Delhi Capitals">
                         </div>
-                        <!-- Image-5 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='kkr.jpg') }}" alt="Kolkata Knight Riders">
                         </div>
-                        <!-- Image-6 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
                         </div>
-                        <!-- Image-7 -->
+                        
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='kxip.jpg') }}" alt="Kings XI Punjab">
                         </div>
-                        <!-- Image-8 -->
+                       
                         <div class="image-container">
                             <img class="image-width" src="{{ url_for('static', filename='csk.jpg') }}" alt="Chennai Super Kings">
                         </div>
@@ -150,7 +150,7 @@
             </div>
         </div>
 
-        <!-- Footer -->
+        
        <div class='footer'>
            <div class="contact">
                 <a target="_blank" href="https://github.com/sagarkshathriyan"><i class="fab fa-github fa-lg contact-icon"></i></a>
