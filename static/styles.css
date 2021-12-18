@@ -13,7 +13,7 @@ body{
   	
 }
 
-/* Website Title */
+
 .container{
 	color: #DAEE01;
     padding: 20px;
@@ -45,7 +45,7 @@ body{
     margin: 0;
 }
 
-/* Prediction Area */
+
 .prediction-area{
 	position: relative;
 	display: flex;
@@ -166,7 +166,7 @@ body{
 	float: none;
 }
 
-/* Form */
+
 .form-input{
 	background-color: #E9E9E9;
 	width: 370px;
@@ -184,9 +184,9 @@ body{
 	padding: 0 30px;
 }
 
-/* Predict Button */
+
 .myButton {
-	background-color:#0c0c0c;
+	background-color:#29a329;
 	border-radius: 5px;
 	display:inline-block;
 	cursor:pointer;
@@ -235,7 +235,7 @@ body{
 	font-weight: 100;
 }
 
-/* Result */
+
 .results{
   display: inline-block;
   width: auto;
