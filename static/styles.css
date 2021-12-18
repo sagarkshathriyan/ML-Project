@@ -219,7 +219,7 @@ body{
 }
 
 .contact-icon{
-	color: #0066ff;
+	color:#B21807;
 	padding: 7px;
 }
 
@@ -229,7 +229,8 @@ body{
 
 .footer-description{
 	margin: 0;
-	font-size: 12px;
+	font-size: 20px;
+	font-style:oblique
 	font-family: "Sofia", sans-serif;
 	font-weight: 100;
 }
